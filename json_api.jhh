@@ -1,0 +1,47 @@
+#call WebGUI.UpdateNetwork
+{"Version":"##NodeVersion##",
+"Platform":"##NodePlatform##",
+"Uptime":"##NodeUpTime##",
+"General":
+	{"Connected":"##ConnectedStatus##",
+	"Crawling":"##CrawlingStatus##",
+	"Uploading":"##UploadingStatus##",
+	"Archiving":"##ArchivingStatus##",
+	"Low Disk":"##DiskSpaceProblem##",
+	"Errors":"##TimeOutErrorLevel##",
+	"Memory used":"##MemoryUsage##",
+	"Free disk":"##FreeDiskSpace##"},
+"URL buckets":
+	{"Open":"##OpenBuckets##",
+	"Dense":"##DenseBuckets##",
+	"Sparse":"##SparseBuckets##",
+	"Nearly done":"##NearlyDoneBuckets##",
+	"Completed":"##CompletedBuckets##",
+	"Uploaded":"##UploadedBuckets##"},
+"Crawling":
+	{"Total URLs":"##TotalURLs##",
+	"Successes":"##SuccessfulURLs##",
+	"Not found":"##FailedURLs_NotFound##",
+	"Timed out":"##FailedURLs_Timeout##",
+	"Disallowed":"##FailedURLs_RobotsTXT##",
+	"Banned":"##FailedURLs_Banned##",
+	"DNS errors":"##FailedURLs_DNS##",
+	"Conn errors":"##FailedURLs_Connectivity##",
+	"Forbidden (403)":"##FailedURLs_Forbidden##",
+	"Other":"##FailedURLs_Other##",
+	"Retries":"##RetriedURLs##"},
+"Downstream":
+	{"Current":"##CurrentDownloading##",
+	"Overall":"##OverallDownloading##",
+	"Limit":"##DownloadingLimit##",
+	"Session":"##DownloadedData##",
+	"Today":"##TodayDownTrafficMegs##",
+	"Month":"##ThisMonthDownTrafficMegs##"},
+"Upstream":
+	{"Current":"##CurrentUploading##",
+	"Overall":"##OverallUploading##",
+	"Limit":"##UploadingLimit##",
+	"Session":"##UploadedData##",
+	"Today":"##TodayUpTrafficMegs##",
+	"Month":"##ThisMonthUpTrafficMegs##"}
+}
