@@ -2,7 +2,8 @@ from MJ12API import *
 from configobj import ConfigObj
 import time
 
-###################
+### Config ###
+settingsFile = "settings.conf"
 
 def getTotalUrls(data):
 	return int( data['Total URLs'] )
@@ -15,7 +16,7 @@ def getOverallDownload(data):
 
 def getServers(configFile):
 	'''Creates the file objects from the given config file'''
-	config = ConfigObj('settings.conf')
+	config = ConfigObj(configFile)
 	servers = []
 	for server in config:
 		if "username" in config[server]:
@@ -33,7 +34,7 @@ def getServers(configFile):
 	return servers
 
 ####### Main Part #################
-servers = getServers('settings.conf')
+servers = getServers(settingsFile)
 
 oldUrls = 0
 

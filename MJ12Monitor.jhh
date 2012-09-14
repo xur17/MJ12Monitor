@@ -1,0 +1,30 @@
+#call WebGUI.UpdateNetwork
+
+<pre>
+MJ12node        :	##NodeVersion## 
+Platform        : 	##NodePlatform##
+Total URLs      :	##TotalURLs##
+Successes       :	##SuccessfulURLs##
+Not found       :	##FailedURLs_NotFound##
+Timed out       :	##FailedURLs_Timeout##
+Disallowed      :	##FailedURLs_RobotsTXT##
+Banned          :	##FailedURLs_Banned##
+DNS errors      :	##FailedURLs_DNS##
+Conn errors     :	##FailedURLs_Connectivity##
+Forbidden (403) :	##FailedURLs_Forbidden##
+Other           :	##FailedURLs_Other##
+Retries         :	##RetriedURLs##
+Uptime          :	##NodeUpTime##
+Current Download:	##CurrentDownloading##
+Overall Download:	##OverallDownloading##
+Download Limit  :	##DownloadingLimit##
+Downloaded Data :	##DownloadedData##
+Today Down Data :	##TodayDownTrafficMegs##
+Month Down Data :	##ThisMonthDownTrafficMegs##
+Current Upload  :	##CurrentUploading##
+Overall Upload  :	##OverallUploading##
+Upload Limit    :	##UploadingLimit##
+Uploaded Data   :	##UploadedData##
+Today Up Data   :	##TodayUpTrafficMegs##
+Month Up Data   :	##ThisMonthUpTrafficMegs##
+</pre>

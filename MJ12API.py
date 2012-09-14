@@ -41,7 +41,7 @@ class MJ12API:
 		return self.__getCrawlingResultsSoup().replace("<pre>", "").replace("</pre>", "")
 
 	def __getCrawlingResultsSoup(self):
-		html = self.opener.open(self.url + "/tools/MJ12Monitor.jhh", timeout=1)
+		html = self.opener.open(self.url + "/tools/MJ12Monitor.jhh", timeout=5)
 		soup = html.read()
 		return soup
 
