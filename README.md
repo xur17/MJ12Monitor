@@ -12,4 +12,6 @@ How to Use:
 
 4. Use the command line to navigate to the extracted directory
 
-5. Run 'python server.py' to start your server. Information will be displayed in the command window.
+5. Copy 'MJ12Monitor.jhh' to each server's 'htdocs/tools/' directory, and restart the node.
+
+6. Run 'python server.py' to start your server. Information will be displayed in the command window.
